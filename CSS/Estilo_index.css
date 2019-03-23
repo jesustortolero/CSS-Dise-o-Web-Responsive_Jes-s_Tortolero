@@ -1,0 +1,115 @@
+@font-face {
+
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: black;
+}
+
+header{
+  background-color: #7b93a0;
+  color: white;
+  border-radius: 10px 10px 0 0;
+}
+
+#Barra_nav > h1{
+  display: inline-flex;
+  padding-left: 5%;
+  padding-right: 20%;
+  text-shadow: 2px 2px #02010a;
+  text-align: center;
+}
+ #Barra_nav > .menu{
+   display: inline-flex;
+   padding-left: 20%;
+   padding-right: 4%;
+ }
+
+ #Barra_nav a{
+   margin: 10px;
+   padding: 10px;
+   text-decoration: none;
+   color: white;
+
+ }
+
+.Imagen_principal{
+  display: flex;
+  justify-content: center;
+  background-color:#5ee7aa
+}
+
+.Imagen_principal  img{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.Imagen2-3{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #ecd948;
+  border: 1px #ecd948;
+}
+
+.Rotar_I{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 400px;
+  transition: transform 2s;
+}
+
+.Rotar_I :hover{
+  transform: rotate(10deg);
+}
+
+.Rotar_II{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 400px;
+  transition: transform 2s;
+}
+
+footer{
+  padding-top: 10px;
+  border-radius: 0 0 10px 10px;
+  background-color: #C6d5c5;
+}
+
+.Contenedor_footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.Contacto{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.Terminos{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.Redes_scoiales{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.Contenedor_footer h4{
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.Derechos{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
